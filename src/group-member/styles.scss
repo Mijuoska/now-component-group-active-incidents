@@ -1,0 +1,27 @@
+@import '@servicenow/sass-kit/host';
+
+now-card {
+    width: 30%;
+    margin: 1rem 0 1rem 0;
+}
+
+now-avatar {
+    margin-bottom: 1rem;
+}
+
+.row {
+display: flex;
+flex-direction: row;
+padding: 8px 0 8px 6px;
+
+}
+
+.col {
+    display: block;
+    width: 50%;
+}
+
+
+
+
+

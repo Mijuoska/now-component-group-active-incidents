@@ -1,0 +1,15 @@
+{
+	"components": {
+	    "x-365298-group-active-incidents": {
+	        "innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "Group Active Incidents",
+				"icon": "list-outline",
+				"description": "View active incidents by group",
+				"category": "primitives"
+			}
+	    }
+	},
+	"scopeName": "x_365298_helpdes_0"
+}

@@ -1,0 +1,47 @@
+@import '@servicenow/sass-kit/host';
+
+table {
+    width: 75%;
+    flex: 1;
+    display: grid;
+    border-collapse: collapse;
+    margin: 1rem;
+    grid-template-columns:
+        minmax(75px, 0.15fr) minmax(75px, 0.4fr) minmax(75px, 0.25fr);
+}
+
+thead,
+tbody,
+tr {
+    display: contents;
+}
+
+th,
+td {
+    padding: 0.75rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+th {
+    background: #707070;
+    text-align: left;
+    font-weight: normal;
+    color: white;
+    position: relative;
+}
+
+th:last-child {
+    border: 0;
+}
+
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #606060;
+}
+
+tr:nth-child(even) td {
+    background: #f8f8f8;
+}
